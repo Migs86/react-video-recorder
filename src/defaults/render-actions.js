@@ -59,15 +59,7 @@ const Actions = ({
     }
 
     if (isReplayingVideo) {
-      return (
-        <Button
-          type='button'
-          onClick={onStopReplaying}
-          data-qa='start-replaying'
-        >
-          Use another video
-        </Button>
-      )
+      return 
     }
 
     if (isRecording) {
